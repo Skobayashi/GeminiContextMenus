@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+        <title>GeminiContextMenus Options</title>
+
+        <link href="css/bootstrap-responsive.min.css" rel="stylesheet" />
+        <link href="css/bootstrap.min.css" rel="stylesheet" />
+        <link href="css/google-bootstrap.css" rel="stylesheet" />
+
+        <script type="text/javascript" src="js/jquery-1.10.1.min.js"></script>
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="js/store.js"></script>
+        <script type="text/javascript" src="js/options.js"></script>
+
+        <style>
+            html, body {
+                padding: 15px;
+            }
+
+            div.blank {
+                margin: 40px;
+            }
+        </style>
+    </head>
+    <body>
+        <h2>クライアントの追加</h2>
+        <div id="client-form">
+            <input id="client-name" type="text" name="client" />
+            <input id="client-submit" class="btn btn-primary" type="button" value="submit" />
+        </div>
+
+        <div class="blank"></div>
+
+        <h2>APIキーの設定</h2>
+        <div id="client-list" style="font-size:1.3em;">
+            <table id="client-list-table" class="table table-striped">
+                <tbody id="client-list-tbody">
+                </tbody>
+            </table>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,22 @@
+{
+    "name": "GeminiContextMenus",
+    "version": "0.1",
+    "description": "GeminiAPIを利用してセクションのロック・アンロックを行うことが出来る。",
+    "permissions": [
+        "contextMenus",
+        "http://api.gemini/section/*"
+    ],
+
+    "background": {
+        "page": "background.html"
+    },
+
+    "options_page": "options.html",
+
+    "icons": {
+        "128": "img/gemini128.png",
+        "24": "img/gemini24.png"
+    },
+
+    "manifest_version": 2
+}
