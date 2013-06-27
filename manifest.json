@@ -1,5 +1,5 @@
 {
-    "name": "GeminiContextMenus",
+    "name": "GeminiAPIメニュー",
     "version": "0.1",
     "description": "GeminiAPIを利用してセクションのロック・アンロックを行うことが出来る。",
     "permissions": [
